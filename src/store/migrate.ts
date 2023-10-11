@@ -73,7 +73,7 @@ export const migrateV6 = (persistedState: LocalStorageInterfaceV6ToV7) => {
     persistedState.apiEndpoint ===
     'https://sharegpt.churchless.tech/share/v1/chat'
   ) {
-    persistedState.apiEndpoint = 'https://postapi.lbbai.cc/v1/chat/completions';
+    persistedState.apiEndpoint = 'https://api.aigcfun.com/api/v1/text?key=FCAW3STZXEVXDUJUL8';
   }
   if (!persistedState.apiKey || persistedState.apiKey.length === 0)
     persistedState.apiKey = '';
